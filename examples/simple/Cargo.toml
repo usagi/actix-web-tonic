@@ -1,0 +1,20 @@
+[package]
+name = "simple-example"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+# tonic
+tonic = "0.7"
+prost = "0.10"
+# actix-web
+actix-web = "4.0.1"
+# actix-web-tonic
+actix-web-tonic = { path = "../../" }
+# for this example
+num_cpus = "1.13.1"
+log = "0.4.16"
+simple_logger = "2.1.0"
+
+[build-dependencies]
+tonic-build = "0.7"
