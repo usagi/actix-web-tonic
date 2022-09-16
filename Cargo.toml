@@ -21,14 +21,11 @@ tokio = { version = "1", features = ["full"] }
 tonic = { version = "0.8", features = ["tls", "tls-roots", "prost"] }
 prost = "0.11"
 actix-web = "4.2.1"
-actix-http = "3.2.2"
-actix-service = "2.0.2"
-thiserror = "1.0.31"
-const_format = "0.2.22"
-futures = "0.3.21"
+thiserror = "1.0.35"
+futures = "0.3.24"
 to_unit = "1.0.2"
-retrieve = "1.1.0"
-log = "0.4.16"
+retrieve = "1.1.2"
+log = "0.4.17"
 
 [build-dependencies]
 tonic-build = "0.8"
