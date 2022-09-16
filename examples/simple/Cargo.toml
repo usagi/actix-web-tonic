@@ -5,16 +5,14 @@ edition = "2021"
 
 [dependencies]
 # tonic
-tonic = "0.7"
-prost = "0.10"
-# actix-web
-actix-web = "4.0.1"
-# actix-web-tonic
+tonic = "0.8"
+prost = "0.11"
+actix-web = "4.2"
 actix-web-tonic = { path = "../../" }
 # for this example
 num_cpus = "1.13.1"
-log = "0.4.16"
-simple_logger = "2.1.0"
+log = "0.4.17"
+simple_logger = "2.3.0"
 
 [build-dependencies]
-tonic-build = "0.7"
+tonic-build = "0.8"
